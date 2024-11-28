@@ -1,0 +1,42 @@
+body {
+    background-color: #f0e68c; /* Soft yellow background */
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    color: #333;
+}
+
+.container {
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+}
+
+h1 {
+    color: #e63946; /* A lovely red color */
+}
+
+h2 {
+    color: #green; /* Soft green */
+    font-size: 2em;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1.2em;
+    background-color: #457b9d; /* A calming blue */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #1d3557; /* Darker blue on hover */
+}
+
+.hidden {
+    display: none;
+}
